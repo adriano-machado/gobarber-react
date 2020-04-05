@@ -4,6 +4,7 @@ import { lighten } from 'polished';
 import PerfectScrollbar from 'react-perfect-scrollbar';
 
 export const Container = styled.div`
+    z-index: 1000;
     position: relative;
 `;
 
